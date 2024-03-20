@@ -1,8 +1,14 @@
 import { Link } from "react-router-dom";
-import ''
+
 
 const Post = ({ post }) => {
   const { id, title } = post;
+
+  const userStyle = {
+    border: "2px solid yellow",
+    padding: "5px",
+    borderRadius: "20px",
+  };
   return (
     <div style={userStyle}>
       <h4>post of Id : {id}</h4>

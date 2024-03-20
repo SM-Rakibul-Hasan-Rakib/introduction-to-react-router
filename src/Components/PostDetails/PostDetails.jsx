@@ -5,8 +5,8 @@ const PostDetails = () => {
   const {id, title, body} = post;
   return (
     <div>
-      <h3>Post details about: {id}</h3>
-        <p>Title : {title}</p>
+      <h3>Post details about: {id} </h3>
+        <p>Title : {title} </p>
        <p><small>{body}</small></p>
     </div>
   );

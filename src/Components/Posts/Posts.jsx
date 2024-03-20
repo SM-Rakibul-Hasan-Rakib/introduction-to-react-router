@@ -1,3 +1,4 @@
+import './Posts.css'
 import { useLoaderData } from "react-router-dom";
 import Post from "../Post/Post";
 
@@ -6,7 +7,7 @@ const Posts = () => {
   return (
     <div>
       <h2>Posts : {posts.length}</h2>
-      <div>
+      <div className='posts'>
         {
           posts.map(post => <Post key={post.id} post={post}></Post>)
         }
