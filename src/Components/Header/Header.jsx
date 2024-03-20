@@ -7,7 +7,8 @@ const Header = () => {
       <nav>
         <span>My website</span>
         <Link to="/">Home</Link>
-        <Link to='/users'>Users</Link>
+        <Link to="/users">Users</Link>
+        <Link to="/posts">posts</Link>
         <Link to="/about">About</Link>
         <Link to="/Contact">Contact Us</Link>
         {/* <h2>name komu shorom kora</h2> */}
